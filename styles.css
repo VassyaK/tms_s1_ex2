@@ -1,0 +1,197 @@
+* {
+    
+  outline: none;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+main {max-width: 1400px;
+  width: 100%;
+    
+  margin: 0 auto;}
+.content {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;  
+}
+
+html,
+body {
+  height: 100%;
+  color: #000000;
+  background-color: #fff  ;
+}
+
+.titleBoss {margin-top: 100px; 
+  text-align: center;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  color: #212121;
+}
+
+h1.titleBoss:after {
+  content:   ''; /* Добавляемый текст */ 
+  background-color: #E72424; /* Цвет фона */ 
+  width: 64px;
+  height: 2px;
+  margin-top: 51px;
+  margin-left: -243px;      
+  position: absolute;
+}
+  
+.subtitle{
+  margin-top: 30px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #86878B; text-align: center;
+  line-height: 19.07px;
+  }
+
+
+
+
+section {
+      text-align: center; }
+  .tile {
+          
+          border-radius: 10px;
+          padding: 1rem;
+          text-align: center;
+        }
+  .tile_image {
+          
+          width: 120px;
+          height: 120px;
+          border-radius: 50%;
+          overflow: hidden;
+          margin: auto;
+          border: 3px solid #E72424;
+          position: relative;
+
+        }
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+h4 {
+  margin-bottom: .5rem;
+}
+.tile_description {padding: 1em;}
+
+
+.tiles-wrapper {
+  margin: 0 -0.5rem;
+  width: calc(1400px + 1rem);
+  display: flex;
+  margin-left: 58px;
+  margin-right: 58px;
+  top: 300px;
+}
+
+.tile_container {
+  width: calc(100% / 4);
+  box-sizing: border-box;
+  padding: 0.5rem;
+}
+
+
+
+
+
+.tile_description {
+  margin-top: 1rem;
+}
+
+.tile img {
+  width: 35%;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  position: absolute;
+}
+                          /* <section class="titleThree"> */
+.backgraund{
+  position: relative;
+  top: -4px;
+  left: -100px;
+}
+  
+.up{
+  position: absolute;
+  color: #ffffff;
+  z-index: 1;
+}
+h2.titleBoss{
+  top: -28px;
+  left: 497px;
+}
+h2.titleBoss:after {
+  content:   ''; /* Добавляемый текст */ 
+  background-color:  #ffffff; /* Цвет фона */ 
+  width: 64px;
+  height: 2px;
+  margin-top: 88px;
+  margin-left: -243px;      
+  position: absolute;
+}
+.titleUp{
+  top: 177px;
+  left: 355px;
+
+  font-style: normal;
+  color: rgb(255, 255, 255, 0.8);
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  vertical-align: top;  
+}
+button.downloadButton{
+  width: 135px;
+  height: 42px;
+  top: 250px;
+  left: 632px;
+  border: 1px solid #FFFFFF;
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0);
+  font-size: 15px;
+  font-weight: 600;
+}
+div.backgraund:after {
+  content:   ''; /* Добавляемый текст */ 
+  background-color:  rgba(0, 0, 0, 0.65); /* Цвет фона */ 
+  width: 1400px;
+  height: 326px;
+  top: 0px;
+  left: 0px;      
+  position: absolute;
+}
+                                /* FOOTER */
+footer{
+  background-color: #000000;
+  position: absolute;
+  width: 1400px;
+  height: 101px;
+  margin-left: -100px;
+  top: 920px;
+}
+.futerPanel{
+  position: absolute;
+width: 317px;
+height: 23px;
+left: 541px;
+top: 30px;
+}
+.footerText{
+  font-style: normal;
+  color: rgb(255, 255, 255, 0.5);
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  vertical-align: top;
+  margin-top: 70px;
+}
