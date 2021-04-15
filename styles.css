@@ -11,14 +11,14 @@
 
 main {max-width: 1400px;
   width: 100%;  
-  margin: 0 auto;
-  position: relative;
+  margin: 0 auto; 
   background-color: #ffffff;
   } 
 
 section{
   max-width: 1400px;  
   padding: 0 100px 0 100px;
+  position: relative;
 }
 
 html,
@@ -39,13 +39,15 @@ body {
 }
 
 h1.titleBoss:after {
-  content:   ''; /* Добавляемый текст */ 
+  content:   ''; 
   background-color: #E72424; /* Цвет фона */ 
   width: 64px;
   height: 2px;
-  margin-top: 63px;
-  margin-left: -243px;      
-  position: absolute;  
+  position: absolute;
+  top: 63px;
+  left: 660px; /* если через ТОР, то при увелечении масштаба, когда ширина 
+  блока больше экрана, черточка убегает вправо, с маргинами такого нет */ 
+      
   }
   
 .subtitle{
@@ -53,6 +55,7 @@ h1.titleBoss:after {
   color: #86878B; 
   text-align: center;
   line-height: 19.07px;
+  margin-bottom: 0px;
   }
 
 
@@ -61,6 +64,7 @@ h1.titleBoss:after {
   display: flex;
   justify-content: space-around;
   text-align: center;
+  margin-bottom: 108px;
 
 }
 .tile_container{
@@ -70,7 +74,7 @@ h1.titleBoss:after {
    
 }
 .tile_image {
-  border: 3px solid #E72424;
+  border: 1px solid #E72424;
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -92,23 +96,19 @@ h1.titleBoss:after {
   text-align: center;
   line-height: 19.07px;
 }
-.container{
-  margin-bottom: 108px;
-}
+
 
    
                           /* <section class="titleThree"> */
 .titleThree{
   position: relative;
-}
-                          
-.backgraund{   
   background-image: url(PICTERS/town.png);
   width: 1400px;
   height: 326px;
   top: 0px;
-  left: 0px;      
-  position: absolute;
+  left: 0px;   
+  padding: 0;   
+ 
 }
   
 .up{
@@ -165,7 +165,7 @@ footer{
   background-color: #000000;
   position: relative;
   height: 101px;
-  top: 326px;    
+  top: auto;    
   width: 100%;  
   margin: 0 auto;
   max-width: 1400px;
