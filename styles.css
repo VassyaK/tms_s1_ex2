@@ -151,7 +151,7 @@ button.downloadButton{
   font-size: 15px;
   font-weight: 600;
 }
-div.backgraund:after {
+.titleThree:after {
   content:   ''; 
   background-color:  rgba(0, 0, 0, 0.65);
   width: 1400px;
